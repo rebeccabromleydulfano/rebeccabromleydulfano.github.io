@@ -23,3 +23,63 @@
 <meta name="theme-color" content="var(--global-bg-color)"/>
 
 <!-- end custom head snippets -->
+
+<style>
+  /* ACCENT COLOR (light mode). Swap the hex codes to change it.
+     Terracotta: #c2512f / hover #8f3519    Plum: #7b2d5f / hover #551d41 */
+  html:root:not([data-theme="dark"]) {
+    --global-base-color: #1f7a8c;
+    --global-link-color: #1f7a8c;
+    --global-link-color-hover: #14505c;
+    --global-link-color-visited: #1f7a8c;
+    --global-masthead-link-color-hover: #1f7a8c;
+  }
+
+  /* Dark mode uses a lighter shade so it stays readable.
+     Terracotta: #f08a67 / hover #f6b59c    Plum: #d98bbd / hover #ecb8d6 */
+  html:root[data-theme="dark"] {
+    --global-base-color: #5fc4d6;
+    --global-link-color: #5fc4d6;
+    --global-link-color-hover: #9ee0ec;
+    --global-link-color-visited: #5fc4d6;
+    --global-masthead-link-color-hover: #5fc4d6;
+  }
+
+  /* Colored bar under page titles, colored section headings */
+  .page__title {
+    display: inline-block;
+    padding-bottom: 0.15em;
+    border-bottom: 3px solid var(--global-base-color);
+  }
+  .page__content h2 {
+    color: var(--global-base-color);
+  }
+
+  /* Move the light/dark toggle to a button in the bottom-right corner */
+  #theme-toggle {
+    position: fixed !important;
+    bottom: 4rem;   /* raise this number if it overlaps your footer */
+    right: 1.25rem;
+    z-index: 1000;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  #theme-toggle a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    cursor: pointer;
+  }
+</style>
