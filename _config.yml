@@ -28,20 +28,11 @@ author:
   name             : *name
   avatar           : "profile.png"          # put your headshot at /images/profile.png
   bio              : "MD Candidate at Stanford School of Medicine; PhD in Health Policy, Harvard University"
-  location         : "TODO: City, State"
-  employer         : "Stanford School of Medicine"
-  pronouns         : ""                              # TODO: optional, e.g. "she/her"
+  location         : "Stanford, CA"
+  employer         : "Stanford University School of Medicine"
   email            : "rabd@stanford.edu"             # TODO: choose which address to display publicly
-  uri              : ""                              # personal link, if different from site url
-  googlescholar    : ""                              # TODO: full Google Scholar profile URL
-  orcid            : ""                              # TODO: e.g. https://orcid.org/0000-0000-0000-0000
-  pubmed           : ""
-  researchgate     : ""
-  linkedin         : ""                              # TODO: username only, e.g. "rebecca-bromley-dulfano"
-  github           : ""                              # TODO: GitHub username
-  bluesky          : ""
-  twitter          : ""
-  # Leave any other social fields from the template untouched/blank.
+  googlescholar    : "https://scholar.google.com/citations?user=fy7Bi_oAAAAJ&hl=en&oi=ao"                                          
+  linkedin         : "https://www.linkedin.com/in/rebecca-bromley-dulfano/"                             
 
 # -----------------------------------------------------------------------------
 # Footer / Analytics / Comments
