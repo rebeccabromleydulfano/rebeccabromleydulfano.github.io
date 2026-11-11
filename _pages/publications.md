@@ -4,7 +4,7 @@ title: "Publications"
 author_profile: true
 ---
 
-\* First author &nbsp;&nbsp; \*\* Co-first author
+
 
 ## Under Review
 
@@ -16,7 +16,7 @@ author_profile: true
 - “Assessing Reliability of Quality Measures Across Oncology Practices: Implications for Value-Based Payment.”
 
 ## Published
-
+\* First author &nbsp;&nbsp; \*\* Co-first author
 - **Bromley-Dulfano, Rebecca**\*, Nancy Beaulieu, Mary Beth Landrum, and Nancy Keating. “[Changes in Oncology Care Provision Following Safety-Net Hospital Acquisition by Health Systems](https://journals.sagepub.com/doi/abs/10.1177/10775587261453480).” *Medical Care Research and Review* (2026).
 
 - **Bromley-Dulfano, Rebecca**\*, Michael Barnett. “[Racial Inequities and Access to Outpatient COVID-19 Treatment](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2820076).” *JAMA Network Open* 8(7) (2025).
