@@ -25,16 +25,6 @@
 <!-- end custom head snippets -->
 
 <style>
-  /* ACCENT COLOR (light mode). Swap the hex codes to change it.
-     Terracotta: #c2512f / hover #8f3519    Plum: #7b2d5f / hover #551d41 */
-  html:root:not([data-theme="dark"]) {
-    --global-base-color: #1f7a8c;
-    --global-link-color: #1f7a8c;
-    --global-link-color-hover: #14505c;
-    --global-link-color-visited: #1f7a8c;
-    --global-masthead-link-color-hover: #1f7a8c;
-  }
-
   /* Dark mode uses a lighter shade so it stays readable.
      Terracotta: #f08a67 / hover #f6b59c    Plum: #d98bbd / hover #ecb8d6 */
   html:root[data-theme="dark"] {
@@ -45,15 +35,6 @@
     --global-masthead-link-color-hover: #5fc4d6;
   }
 
-  /* Colored bar under page titles, colored section headings */
-  .page__title {
-    display: inline-block;
-    padding-bottom: 0.15em;
-    border-bottom: 3px solid var(--global-base-color);
-  }
-  .page__content h2 {
-    color: var(--global-base-color);
-  }
 
   /* Move the light/dark toggle to a button in the bottom-right corner */
   #theme-toggle {
