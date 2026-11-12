@@ -9,7 +9,7 @@ author_profile: true
 ## In Preparation
 
 - “Trends in Integration and Utilization of Behavioral Health Providers into Primary Care in the US: 2015–2020.” (with Michael Barnett; under review)
-- “Assessing Reliability of Quality Measures Across Oncology Practices: Implications for Value-Based Payment.” (with Mary Beth Landrum, Robert Wolf, and Nancy Keating)
+- “Assessing Reliability of Quality Measures Across Oncology Practices: Implications for Value-Based Payment.” (with Mary Beth Landrum, Robert Wolf, Lauren Riedel, and Nancy Keating)
 - “Political Identity and COVID-19 Vaccine Acceptance from 2020-2023: The Mediating Role of Trust in U.S. Public Health Actors” (with Amanda Gutierrez, Benjamin Sommers, and Matthew Motta)
 - "A Mixed-Method Analysis of Decision-Making Rationale Among Vaccinated and Unvaccinated Survey Respondents in the U.S." (with Amanda Gutierrez and Stephen Ansolabehere)
 
