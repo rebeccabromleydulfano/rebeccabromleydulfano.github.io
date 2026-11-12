@@ -23,44 +23,44 @@
 <meta name="theme-color" content="var(--global-bg-color)"/>
 
 <!-- end custom head snippets -->
-
 <style>
-  /* Dark mode uses a lighter shade so it stays readable.
-     Terracotta: #f08a67 / hover #f6b59c    Plum: #d98bbd / hover #ecb8d6 */
-  html:root[data-theme="dark"] {
-    --global-base-color: #5fc4d6;
-    --global-link-color: #5fc4d6;
-    --global-link-color-hover: #9ee0ec;
-    --global-link-color-visited: #5fc4d6;
-    --global-masthead-link-color-hover: #5fc4d6;
-  }
-
-
-  /* Move the light/dark toggle to a button in the bottom-right corner */
   #theme-toggle {
     position: fixed !important;
     bottom: 4rem;   /* raise this number if it overlaps your footer */
     right: 1.25rem;
     z-index: 1000;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
+    display: block !important;
     width: 2.75rem;
     height: 2.75rem;
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     border-radius: 50%;
     background: var(--global-bg-color);
     border: 1px solid var(--global-border-color);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   }
+  /* Stretch the link over the whole circle and center the icon inside it */
   #theme-toggle a {
-    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex !important;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     cursor: pointer;
+  }
+  #theme-toggle a::before,
+  #theme-toggle a::after {
+    display: none !important;   /* removes the template's hover underline bar */
+  }
+  #theme-toggle i {
+    display: block;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
   }
 </style>
