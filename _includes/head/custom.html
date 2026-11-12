@@ -57,10 +57,24 @@
   #theme-toggle a::after {
     display: none !important;   /* removes the template's hover underline bar */
   }
+
+
   #theme-toggle i {
     display: block;
     margin: 0 !important;
     padding: 0 !important;
     line-height: 1 !important;
+  }
+
+
+   /* Remove the "you are here" underline under your name in the top bar */
+  .masthead__menu-item--lg a::before,
+  .masthead__menu-item--lg a::after {
+    display: none !important;
+  }
+  .masthead__menu-item--lg,
+  .masthead__menu-item--lg a {
+    border-bottom: none !important;
+    box-shadow: none !important;
   }
 </style>
